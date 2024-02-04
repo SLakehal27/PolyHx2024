@@ -1,0 +1,54 @@
+.bubble {
+    position: relative;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    margin-left: 31%;
+    margin-right: auto;
+    top: -550px;
+    background: #ffffff;
+    color: #000000;
+    font-family : "rainyhearts";
+    font-size: 26px;
+    line-height: 40px;
+    width: 30%;
+    height: auto; /* Ajuste la hauteur en fonction du contenu */
+    border-radius: 100px;
+    padding: 29px; /* Ajout de padding pour l'espace intérieur */
+    border: #000000 solid 3px;
+}
+
+.bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 0 51px 45px 0;
+    border-color: transparent #ffffff transparent transparent;
+    bottom: -45px;
+    left: 77%;
+    margin-left: -25.5px;
+}
+
+.bubble:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    z-index: 0;
+    border-style: solid;
+    border-width: 0 54px 48px 0;
+    border-color: transparent #000000 transparent transparent;
+    bottom: -51px;
+    left: 77%;
+    margin-left: -25.5px;
+    display: block;
+}
+
+/* Coupe le texte et le fait passer à la ligne si nécessaire */
+.bubble p {
+    word-wrap: break-word;
+    overflow: hidden;
+}
+

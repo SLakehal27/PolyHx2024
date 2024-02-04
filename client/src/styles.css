@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "RainyHearts";
+  src: url("./assets/fonts/rainyhearts.ttf");
+}
+
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-image: url("./assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la zone */
+  background-attachment: fixed; /* Fixe l'image de fond à la fenêtre, afin qu'elle reste en place pendant le défilement */
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  overflow: hidden;
+}

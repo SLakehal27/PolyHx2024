@@ -1,0 +1,17 @@
+<div class="content">
+  <h2>{{ title }}</h2>
+  <p>{{ data.content }}</p>
+</div>
+<div *ngIf="actions.length > 0" class="actions">
+  <button
+    mat-button
+    *ngFor="let action of actions"
+    (click)="closeDialog(action.value)"
+    [color]="action.color || 'primary'"
+  >
+    {{ action.label }}
+  </button>
+</div>
+<button mat-icon-button (click)="closeDialog()" class="close-button">
+  <mat-icon>close</mat-icon>
+</button>

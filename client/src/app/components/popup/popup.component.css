@@ -1,0 +1,60 @@
+/* popup.component.css */
+
+.custom-popup .mat-dialog-container {
+    border-radius: 20px; /* Rounded corners for the dialog */
+    padding: 24px; /* More space inside the dialog */
+  }
+  
+  /* Header style */
+  h2 {
+    margin-top: 0;
+    color: #333; /* Darker font color for better readability */
+    font-size: 24px; /* Larger font size */
+  }
+  
+  /* Content style */
+  p {
+    margin: 20px 0; /* More space around the content */
+    color: #555; /* Lighter font color for the content */
+    font-size: 18px; /* Readable font size */
+  }
+  
+  /* Action buttons styling */
+  .actions {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+  }
+  
+  button {
+    margin-left: 10px; /* Space between buttons */
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  /* Additional styles for the buttons */
+  button.mat-button {
+    border-radius: 4px;
+  }
+  
+  .mat-icon-button {
+    background-color: transparent;
+    color: #666;
+  }
+  
+  .mat-icon {
+    font-size: 24px; /* Larger close icon */
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+    min-height: 100%;
+  }
+  
+  
