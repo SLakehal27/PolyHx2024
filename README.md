@@ -3,6 +3,7 @@ Have you ever wondered what bin to throw your trash to? Then this project is for
 
 # Disclaimer
 **The AI in this project does not come from our own model. We used OpenAI's API to be able to have image recognition features for our project.**
+**As for the commit history, we had a problem in which the API key was public, so to remove it from the repo, we decided to keep it private, thus the 2 commits in this repo**
 
 # Installation
 ```
