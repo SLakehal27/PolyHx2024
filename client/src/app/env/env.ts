@@ -1,6 +1,6 @@
 export const environment = {
     production: false,
-    openAiApiKey: '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',
+    openAiApiKey: 'insert_key_here',
     firebase : {
         apiKey: "AIzaSyBI9Fs5Yhjlj97EcBthi_leSE7kEO0e7Zs",
         authDomain: "poly-hacks-cf820.firebaseapp.com",
